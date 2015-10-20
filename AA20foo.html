@@ -1,0 +1,91 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>20foo</title>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+		<script src="scripts/jquery-1.7.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<style rel="css/text">
+			.a { color: orange }
+			.bclass {bgcolor:blue }
+			body{background-color: #FFFFCC}
+			.table-hover  tr:nth-child(odd) hover td,	.table-hover  tr:nth-child(odd) hover th {background-color: #999;}
+		</style>
+		
+	</head>
+	<body>
+		<script>
+			function foo(x)
+			{
+				x.style.borderWidth="medium";
+				x.style.borderColor = "red";
+				x.style.borderStyle="dotted";
+				console.log("Hello");
+			}
+		</script>
+		<nav class="navbar navbar-inverse">	
+        <div class="navbar-inner">
+            <a class="brand" href="/"><img src="images/PES/pesu2.jpg" alt="PESU" width="500" height="100" /></a>
+
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+
+            <div class="nav-collapse collapse pull-right">
+                <ul class="nav">
+                    <li><br><br><a href="/About/List"> HOME<br>  </a></li>
+                    <li ><br><br><a href="/Login/all">LOGIN  </a></li>                                        
+                </ul>
+                
+                
+            </div>
+        </div>
+		</nav>
+		<br>
+		<div class="row" >		
+			<div class="span3 offset1" onmouseover="foo(this)" >				
+				<img src="images/MainPage/eclat.jpg" alt="collage9" width="200"/>
+			</div>
+			<div class="span3" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage4" width="200"/>
+			</div>
+			<div class="span3" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage3" width="200"/>
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="row">
+			<div class="span3">				
+				
+			</div>
+			<div class="span3" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage1" width="200" />
+			</div>
+			<div class="span3 offset1" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage1" width="200" />
+			</div>
+		</div>
+		
+		
+		
+		
+		<div class="row">
+			<div class="span4 offset1" onmouseover="foo(this)">				
+				<img src="images/MainPage/collage1.jpg" alt="collage1" width="200" />
+			</div> 
+			<div class="span4" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage1" width="200" />
+			</div>
+			<div class="span4" onmouseover="foo(this)">
+				<img src="images/MainPage/collage1.jpg" alt="collage1" width="200" />
+			</div>
+		</div>
+		
+	</body>
+</html>

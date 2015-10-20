@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">  
+  
+  
+  <meta charset="utf-8">
+		<title>20foo</title>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+		<script src="scripts/jquery-1.7.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<style rel="css/text">
+			.a { color: orange }
+			.bclass {bgcolor:blue }
+			img{width:220;}
+			.table-hover  tr:nth-child(odd) hover td,	.table-hover  tr:nth-child(odd) hover th {background-color: #999;}
+			li{text-color:blue;text-size:5px;}
+			.a{float:right;}
+		</style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<script>
+			function foo(x)
+			{	console.log("hello");
+				x.style.width="240";
+			}
+			function foo1(x)
+			{
+				x.style.width="220";
+			}
+		</script>
+		<div class="row" >				
+			<div class="span3"> </div>
+			
+				<img src="image2/MainPage/eclat.jpg" alt="collage9" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/> 		
+			
+			
+				<img src="image2/MainPage/csr.jpg" alt="collage4"  width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>			
+			
+				<img src="image2/MainPage/sans.jpg" alt="collage3" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>			
+				
+				<img src="image2/MainPage/trance.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>				
+			</div>
+		</div>
+		
+		<br>
+		
+		
+		<div class="row">
+			<div class="spana3"></div>				
+			<div class="spana3">
+				<img  src="image2/MainPage/trance.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"	/>						
+			</div>
+			<div class="spana4"></div>
+				<div>
+				<img src="image2/MainPage/pulse.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>						
+				</div>
+		</div>
+		
+		
+		<br>
+		
+		<div class="row">
+			<div class="span3"></div>
+				<img src="image2/MainPage/samarpana.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>								
+				<img src="image2/MainPage/samarpana.jpg" alt="collage1" width="220" title="HI"  style="border: 2px solid green"/>				
+				<img src="image2/MainPage/rot.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>
+				<img src="image2/MainPage/pixel.jpg" alt="collage1" width="220" title="HI" onmouseover="foo(this)" onmouseout="foo1(this)" style="border: 2px solid green"/>
+		</div>
+		
+
+</body>
+</html>
